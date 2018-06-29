@@ -7,6 +7,6 @@ require 'crackle_pop'
 describe 'CracklePop' do
 
     it 'returns "Crackle" when passed 3' do
-        expect(crackle_pop(3)).to_eq('Crackle')
+        expect(crackle_pop(3)).to eq('Crackle')
     end
 end
