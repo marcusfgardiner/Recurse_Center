@@ -1,5 +1,5 @@
 def crackle_pop(number)
-  if number == 15
+  if (number % 3 == 0) && (number % 5) == 0
     'CracklePop'
   elsif (number % 3) == 0
     'Crackle'
