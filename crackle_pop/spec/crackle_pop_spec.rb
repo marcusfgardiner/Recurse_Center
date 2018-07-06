@@ -17,4 +17,7 @@ describe 'CracklePop' do
   it 'returns "Pop" when passed 5' do
     expect(crackle_pop(5)).to eq('Pop')
   end
+  it 'returns "Pop" when passed 10' do
+    expect(crackle_pop(10)).to eq('Pop')
+  end
 end
