@@ -1,12 +1,16 @@
 def crackle_pop(number)
-  if (number % 3).zero? && (number % 5).zero?
+  if divisible?(number, 15)
     'CracklePop'
-  elsif (number % 3).zero?
+  elsif divisible?(number, 3)
     'Crackle'
-  elsif (number % 5).zero?
+  elsif divisible?(number, 5)
     'Pop'
   else number
   end
+end
+
+def divisible?(number, divisor)
+  (number % divisor).zero?
 end
 
 def printer
