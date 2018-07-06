@@ -26,4 +26,7 @@ describe 'CracklePop' do
   it 'returns "CracklePop" when passed 60' do
     expect(crackle_pop(60)).to eq('CracklePop')
   end
+  it 'returns number when passed 4' do
+    expect(crackle_pop(4)).to eq('4')
+  end
 end
