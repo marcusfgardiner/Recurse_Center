@@ -13,8 +13,8 @@ def divisible?(number, divisor)
   (number % divisor).zero?
 end
 
-def printer
-  100.times { |i| puts crackle_pop(i + 1) }
+def number_printer(number)
+  number.times { |i| puts crackle_pop(i + 1) }
 end
 
-printer
+number_printer(100)
