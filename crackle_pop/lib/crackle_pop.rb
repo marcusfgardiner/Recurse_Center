@@ -5,6 +5,7 @@ def crackle_pop(number)
     'Crackle'
   elsif (number % 5) == 0
     'Pop'
+  else number
   end
 end
 
