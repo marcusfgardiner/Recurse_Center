@@ -29,4 +29,7 @@ describe 'CracklePop' do
   it 'returns number when passed 4' do
     expect(crackle_pop(4)).to eq(4)
   end
+  it 'returns number when passed 62' do
+    expect(crackle_pop(62)).to eq(62)
+  end
 end
