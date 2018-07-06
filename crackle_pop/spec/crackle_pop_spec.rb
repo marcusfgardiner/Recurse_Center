@@ -24,6 +24,6 @@ describe 'CracklePop' do
     expect(crackle_pop(15)).to eq('CracklePop')
   end
   it 'returns "CracklePop" when passed 60' do
-    expect(crackle_pop(60)).to eq(CracklePop)
+    expect(crackle_pop(60)).to eq('CracklePop')
   end
 end
