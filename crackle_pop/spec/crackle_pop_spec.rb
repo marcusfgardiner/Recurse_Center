@@ -5,8 +5,7 @@ require 'crackle_pop'
 # If it's divisible by 5, print Pop. If it's divisible by both 3 and 5, print CracklePop. 
 
 describe 'CracklePop' do
-
-    it 'returns "Crackle" when passed 3' do
-        expect(crackle_pop(3)).to eq('Crackle')
-    end
+  it 'returns "Crackle" when passed 3' do
+    expect(crackle_pop(3)).to eq('Crackle')
+  end
 end
