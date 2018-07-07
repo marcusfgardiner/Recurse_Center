@@ -2,7 +2,7 @@
 # Number printer is crackle popper really not number printer
 
 def crackle_pop_printer(number)
-  number.times { |i| puts crackle_or_pop(i + 1) }
+  number.times { |i| puts crackle_pop(i + 1) }
 end
 
 def crackle_pop(number)

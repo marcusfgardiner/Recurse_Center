@@ -33,3 +33,9 @@ describe 'crackle_pop' do
     expect(crackle_pop(62)).to eq(62)
   end
 end
+
+describe 'crackle_pop_printer' do
+  it 'prints "1 2 Crackle" when passed 3' do
+    expect { crackle_pop_printer(3) }.to output("1\n2\nCrackle\n").to_stdout
+  end
+end
