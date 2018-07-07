@@ -38,4 +38,8 @@ describe 'crackle_pop_printer' do
   it 'prints "1 2 Crackle" when passed 3' do
     expect { crackle_pop_printer(3) }.to output("1\n2\nCrackle\n").to_stdout
   end
+
+  it 'prints "1 2 Crackle 4 Pop" when passed 5' do
+    expect { crackle_pop_printer(5) }.to output("1\n2\nCrackle\n4\nPop\n").to_stdout
+  end
 end
