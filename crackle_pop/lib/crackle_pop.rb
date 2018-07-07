@@ -1,7 +1,8 @@
-#TODO: Refactoring - Make methods private or increase test coverage?
+#TODO: Refactoring - Make methods private or increase test coverage? 
+# Number printer is crackle popper really not number printer
 
-def number_printer(number)
-  number.times { |i| puts crackle_pop(i + 1) }
+def crackle_pop_printer(number)
+  number.times { |i| puts crackle_or_pop(i + 1) }
 end
 
 def crackle_pop(number)
@@ -19,4 +20,4 @@ def divisible?(number, divisor)
   (number % divisor).zero?
 end
 
-number_printer(100)
+crackle_pop_printer(100)
